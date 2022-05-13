@@ -1,0 +1,179 @@
+
+html{
+	font-family: arial,sans-serif;
+	background-color: #fff5eb;
+}
+*
+ {
+	box-sizing: border-box;
+}
+nav{
+	text-align: center;
+}
+h1, h2{
+	text-align: center;
+	color: #ffad5b;
+}
+h3{
+	background-color: #ffad5b;
+	color : #fff5eb;
+	padding: 5px;
+	margin: 5px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-radius: 4px;
+}
+dt{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+	padding-bottom: 0px;
+}
+dd{
+	font-style: italic;
+	padding-bottom: 5px;
+}
+table {
+	text-align: left;
+	width: auto;
+}
+td, th{
+	padding: 5px;
+	margin: 0px;
+	vertical-align: top;
+}
+th {
+	margin-right: 10px;
+	padding-right: 10px;
+}
+a {
+	text-align: right;
+	margin-right: 10px;
+	padding: 5px;
+}
+p {
+	text-align: justify;
+	margin: 10px;
+	font-weight: normal;
+}
+ul{
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+/* ID */
+
+#portrait{
+	max-width: 100%;
+	height: auto;
+	border: 2px outset #ffad5b;
+}
+#formations tr th:nth-child(odd)
+{
+	white-space: nowrap;
+}
+#menu {
+	background-color:#fff5eb;
+	margin-left: 365px;
+	margin-right: 160px;
+	margin-bottom : 3px;
+	margin-top: 3px;
+	padding : 0px;
+}
+#menu li{
+	list-style-type: none;
+	min-width: 120px;
+	display: inline;
+	margin: 40px;
+}
+#menu a {
+	background-color: #ffad5b;
+	min-width: 120px;
+	color : #fff5eb;
+	border-radius: 4px;
+	text-decoration: none;
+	/*border: 1px solid black;*/
+
+}
+#haut{
+	text-align: right;
+}
+#page {
+	display: inline-flex;
+
+}
+#corps {
+	display: flex;
+	flex-direction: column;
+	font-size: 1em;
+	text-align: justify;
+	margin-right: 150px;
+	margin-left : 15px;
+	color : #ffad5b;
+}
+#bloc {
+	color : #fff5eb;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: #ffad5b;
+	font-size: 1em;
+	padding: 10px;
+	margin-left: 75px;
+}
+#moi  {
+	list-style-type: none;
+	padding: 5px;
+	margin: 5px;
+}
+#footer{
+	text-align: center;
+}
+#presentation {
+	background-color: #fff5eb;
+	color :#ffad5b;
+}
+.colonne1 {
+	display: flex;
+	flex-direction: column;
+	
+}
+#outils {
+	display: flex;
+	flex-direction: column;
+	margin-left:20px;
+}
+#dev {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+/* CLASS */
+
+.decalage{
+	padding-left: 20px;
+}
+.nom{
+	font-weight: bold;
+	padding-top: 0px;
+}
+.detail{
+	font-style: italic;
+	padding-top: 5px;
+	margin-top: 0px;
+}
+.contenu{
+	margin-right: 40px;
+	padding-right: 15px;
+
+}
+.background{
+	background-color: #fff5eb;
+	color : #ffad5b;
+}
+
