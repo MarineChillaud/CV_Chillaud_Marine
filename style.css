@@ -1,6 +1,6 @@
 
 html{
-	font-family: arial,sans-serif;
+	font-family: Helvetica,sans-serif;
 	background-color: #fff5eb;
 }
 *
@@ -23,11 +23,22 @@ h3{
 	padding-right: 10px;
 	border-radius: 4px;
 }
+h4{
+	font-size:larger;
+	margin-left: 10px;
+	padding-left: 10px;
+	margin-top:5px;
+	margin-bottom:2px;
+	padding-top:5px;
+	padding-bottom : 2px;
+}
 dt{
-	font-size: 1.1em;
+	font-size: larger;
 	font-weight: bold;
 	margin: 5px;
+	margin-left: 10px;
 	padding: 5px;
+	padding-left: 10px;
 	padding-bottom: 0px;
 }
 dd{
@@ -54,12 +65,16 @@ a {
 }
 p {
 	text-align: justify;
-	margin: 10px;
 	font-weight: normal;
+	font-style: italic;
+	margin: 10px;
 }
 ul{
 	font-weight: normal;
-	margin-top: 5px;
+	margin-top: 0px;
+}
+li {
+	padding-bottom : 1px;
 }
 
 /* ID */
@@ -89,12 +104,12 @@ ul{
 }
 #menu a {
 	background-color: #ffad5b;
+	display: inline-block;
 	min-width: 120px;
+	text-align: center;
 	color : #fff5eb;
 	border-radius: 4px;
 	text-decoration: none;
-	/*border: 1px solid black;*/
-
 }
 #haut{
 	text-align: right;
@@ -137,15 +152,12 @@ ul{
 	background-color: #fff5eb;
 	color :#ffad5b;
 }
-.colonne1 {
-	display: flex;
-	flex-direction: column;
-	
-}
 #outils {
 	display: flex;
 	flex-direction: column;
 	margin-left:20px;
+	margin-bottom:10px;
+	font-style: italic;
 }
 #dev {
 	display: flex;
@@ -155,25 +167,38 @@ ul{
 
 /* CLASS */
 
-.decalage{
+.decalage {
 	padding-left: 20px;
 }
-.nom{
+.nom {
 	font-weight: bold;
 	padding-top: 0px;
 }
-.detail{
+.detail {
 	font-style: italic;
 	padding-top: 5px;
 	margin-top: 0px;
+	margin-left:10px;
 }
-.contenu{
+.detailP {
+	padding-left : 25px;
+}
+.contenu {
 	margin-right: 40px;
 	padding-right: 15px;
 
 }
-.background{
+.background {
 	background-color: #fff5eb;
 	color : #ffad5b;
 }
+.blocP {
+	margin-left:0px;
+}
+.page {
+	color : #d66c00;
+	text-decoration: none;
+}
+
+
 
